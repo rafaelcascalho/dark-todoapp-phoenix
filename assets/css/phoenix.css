@@ -18,7 +18,7 @@ html {
 body {
   background-color: #000000;
   color: #fff;
-  font-family: 'Ubuntu', 'Arial', sans-serif;
+  font-family: "Ubuntu", "Arial", sans-serif;
   font-size: 1.6em;
   font-weight: 300;
   line-height: 1.6;
@@ -34,9 +34,9 @@ blockquote *:last-child {
 }
 .button,
 button,
-input[type='button'],
-input[type='reset'],
-input[type='submit'] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   background-color: #0069d9;
   border: 0.1rem solid #0069d9;
   border-radius: 0.4rem;
@@ -58,12 +58,12 @@ input[type='submit'] {
 .button:hover,
 button:focus,
 button:hover,
-input[type='button']:focus,
-input[type='button']:hover,
-input[type='reset']:focus,
-input[type='reset']:hover,
-input[type='submit']:focus,
-input[type='submit']:hover {
+input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover {
   background-color: #606c76;
   border-color: #606c76;
   color: #fff;
@@ -71,9 +71,9 @@ input[type='submit']:hover {
 }
 .button[disabled],
 button[disabled],
-input[type='button'][disabled],
-input[type='reset'][disabled],
-input[type='submit'][disabled] {
+input[type="button"][disabled],
+input[type="reset"][disabled],
+input[type="submit"][disabled] {
   cursor: default;
   opacity: 0.5;
 }
@@ -81,20 +81,20 @@ input[type='submit'][disabled] {
 .button[disabled]:hover,
 button[disabled]:focus,
 button[disabled]:hover,
-input[type='button'][disabled]:focus,
-input[type='button'][disabled]:hover,
-input[type='reset'][disabled]:focus,
-input[type='reset'][disabled]:hover,
-input[type='submit'][disabled]:focus,
-input[type='submit'][disabled]:hover {
+input[type="button"][disabled]:focus,
+input[type="button"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="reset"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+input[type="submit"][disabled]:hover {
   background-color: #0069d9;
   border-color: #0069d9;
 }
 .button.button-outline,
 button.button-outline,
-input[type='button'].button-outline,
-input[type='reset'].button-outline,
-input[type='submit'].button-outline {
+input[type="button"].button-outline,
+input[type="reset"].button-outline,
+input[type="submit"].button-outline {
   background-color: transparent;
   color: #0069d9;
 }
@@ -102,12 +102,12 @@ input[type='submit'].button-outline {
 .button.button-outline:hover,
 button.button-outline:focus,
 button.button-outline:hover,
-input[type='button'].button-outline:focus,
-input[type='button'].button-outline:hover,
-input[type='reset'].button-outline:focus,
-input[type='reset'].button-outline:hover,
-input[type='submit'].button-outline:focus,
-input[type='submit'].button-outline:hover {
+input[type="button"].button-outline:focus,
+input[type="button"].button-outline:hover,
+input[type="reset"].button-outline:focus,
+input[type="reset"].button-outline:hover,
+input[type="submit"].button-outline:focus,
+input[type="submit"].button-outline:hover {
   background-color: transparent;
   border-color: #606c76;
   color: #606c76;
@@ -116,20 +116,20 @@ input[type='submit'].button-outline:hover {
 .button.button-outline[disabled]:hover,
 button.button-outline[disabled]:focus,
 button.button-outline[disabled]:hover,
-input[type='button'].button-outline[disabled]:focus,
-input[type='button'].button-outline[disabled]:hover,
-input[type='reset'].button-outline[disabled]:focus,
-input[type='reset'].button-outline[disabled]:hover,
-input[type='submit'].button-outline[disabled]:focus,
-input[type='submit'].button-outline[disabled]:hover {
+input[type="button"].button-outline[disabled]:focus,
+input[type="button"].button-outline[disabled]:hover,
+input[type="reset"].button-outline[disabled]:focus,
+input[type="reset"].button-outline[disabled]:hover,
+input[type="submit"].button-outline[disabled]:focus,
+input[type="submit"].button-outline[disabled]:hover {
   border-color: inherit;
   color: #0069d9;
 }
 .button.button-clear,
 button.button-clear,
-input[type='button'].button-clear,
-input[type='reset'].button-clear,
-input[type='submit'].button-clear {
+input[type="button"].button-clear,
+input[type="reset"].button-clear,
+input[type="submit"].button-clear {
   background-color: transparent;
   border-color: transparent;
   color: #0069d9;
@@ -138,12 +138,12 @@ input[type='submit'].button-clear {
 .button.button-clear:hover,
 button.button-clear:focus,
 button.button-clear:hover,
-input[type='button'].button-clear:focus,
-input[type='button'].button-clear:hover,
-input[type='reset'].button-clear:focus,
-input[type='reset'].button-clear:hover,
-input[type='submit'].button-clear:focus,
-input[type='submit'].button-clear:hover {
+input[type="button"].button-clear:focus,
+input[type="button"].button-clear:hover,
+input[type="reset"].button-clear:focus,
+input[type="reset"].button-clear:hover,
+input[type="submit"].button-clear:focus,
+input[type="submit"].button-clear:hover {
   background-color: transparent;
   border-color: transparent;
   color: #606c76;
@@ -152,12 +152,12 @@ input[type='submit'].button-clear:hover {
 .button.button-clear[disabled]:hover,
 button.button-clear[disabled]:focus,
 button.button-clear[disabled]:hover,
-input[type='button'].button-clear[disabled]:focus,
-input[type='button'].button-clear[disabled]:hover,
-input[type='reset'].button-clear[disabled]:focus,
-input[type='reset'].button-clear[disabled]:hover,
-input[type='submit'].button-clear[disabled]:focus,
-input[type='submit'].button-clear[disabled]:hover {
+input[type="button"].button-clear[disabled]:focus,
+input[type="button"].button-clear[disabled]:hover,
+input[type="reset"].button-clear[disabled]:focus,
+input[type="reset"].button-clear[disabled]:hover,
+input[type="submit"].button-clear[disabled]:focus,
+input[type="submit"].button-clear[disabled]:hover {
   color: #0069d9;
 }
 code {
@@ -184,13 +184,13 @@ hr {
   border-top: 0.1rem solid #f4f5f6;
   margin: 3rem 0;
 }
-input[type='email'],
-input[type='number'],
-input[type='password'],
-input[type='search'],
-input[type='tel'],
-input[type='text'],
-input[type='url'],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
 textarea,
 select {
   -webkit-appearance: none;
@@ -206,13 +206,13 @@ select {
   padding: 0.6rem 1rem;
   width: 100%;
 }
-input[type='email']:focus,
-input[type='number']:focus,
-input[type='password']:focus,
-input[type='search']:focus,
-input[type='tel']:focus,
-input[type='text']:focus,
-input[type='url']:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus,
 textarea:focus,
 select:focus {
   border-color: #0069d9;
@@ -240,8 +240,8 @@ fieldset {
   border-width: 0;
   padding: 0;
 }
-input[type='checkbox'],
-input[type='radio'] {
+input[type="checkbox"],
+input[type="radio"] {
   display: inline;
 }
 .label-inline {
@@ -507,7 +507,7 @@ img {
 }
 .clearfix:after {
   clear: both;
-  content: ' ';
+  content: " ";
   display: table;
 }
 .float-left {
@@ -549,7 +549,7 @@ h6 {
 
 .container {
   margin: 0 auto;
-  max-width: 80rem;
+  max-width: 100rem;
   padding: 0 2rem;
   position: relative;
   width: 100%;
