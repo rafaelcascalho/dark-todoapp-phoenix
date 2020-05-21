@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![Preview-screenshots](https://github.com/rafaelcascalho/dark-todoapp-phoenix.git/blob/master/screenshots.png)
+![Preview-screenshots](https://github.com/rafaelcascalho/dark-todoapp-phoenix/blob/master/screenshots.png)
 
 ## Prerequisites
 
